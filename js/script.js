@@ -1,4 +1,4 @@
-// Palidroma
+// Palindroma
 
 // Chiedere all’utente di inserire una parola
 let palindroma = prompt("inserisci una parola");
@@ -24,8 +24,31 @@ console.log(esito);
 
 
 // Pari e Dispari
-// L’utente sceglie pari o dispari e inserisce un numero da 1 a 5.
-// Generiamo un numero random (sempre da 1 a 5) per il computer (usando una funzione).
-// Sommiamo i due numeri
 // Stabiliamo se la somma dei due numeri è pari o dispari (usando una funzione)
 // Dichiariamo chi ha vinto.
+
+
+// L’utente sceglie pari o dispari e inserisce un numero da 1 a 5.
+
+let oddOrEvenW = prompt("scegli pari o dispari");
+
+let oddOrEvenN = prompt("scegli un muero tra 1 e 5");
+
+console.log(oddOrEvenN);
+
+// Generiamo un numero random (sempre da 1 a 5) per il computer (usando una funzione).
+
+function randomNumberBetween(min, max) {
+    
+    let random = Math.floor(Math.random() * (max - min + 1) + min)
+    
+    console.log(random);
+    
+}
+
+console.log(randomNumberBetween(1,5));
+
+// Sommiamo i due numeri
+
+
+  
